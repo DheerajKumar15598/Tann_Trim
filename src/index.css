@@ -19,6 +19,8 @@ code {
   width: 100vw;
 }
 
+/* Nav Bar Styling */
+
 .nav{
   display: flex;
   justify-content: space-between;
@@ -45,5 +47,116 @@ code {
 }
 
 .icon{
-  margin-left: 20px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.menu{
+  display: flex;
+  /* border: 2px solid white; */
+  height: 40px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu div{
+  padding: 30px;
+  cursor: pointer;
+}
+
+.menu div:hover{
+  font-weight: bold;
+}
+
+/* Product List */
+
+.producs{
+  display: flex;
+  /* border: 2px solid white; */
+  margin-top: 15px;
+  /* width: 100%; */
+  height: 30%;
+  color: white;
+  padding-bottom: 15px;
+  justify-content: center;
+}
+
+.product-cart-container{
+  height: 90%;
+  width: 150px;
+  /* border: 2px solid white; */
+  color: white;
+  margin-left: 25px;
+}
+
+.product-cart-box{
+  height: 90%;
+  width: 150px;
+  border: 2px solid white;
+  color: white;
+}
+
+.product-title{
+  text-align: center;
+}
+
+/* Card Style */
+
+.card-box{
+  position: relative;
+  height: 350px;
+  width: 250px;
+  /* border: 2px solid white; */
+  background-color: rgb(18, 18, 18);
+  margin-top: 20px;
+  border-radius: 5%;
+  margin-left: 25px;
+  margin-right: 25px;
+  color: white;
+}
+
+.card-img{
+  /* position: absolute; */
+  background-color: aliceblue;
+  height: 250px;
+  width: 100%;
+  /* border: 1px solid white; */
+  border-top-right-radius: 5%;
+  border-top-left-radius: 5%;
+}
+
+.card-textarea{
+  /* height: 50px; */
+  width: 100%;
+  /* border: 2px solid red; */
+  /* background-color: rgb(32, 32, 32); */
+  color: white;
+}
+
+.card-textarea p{
+  margin-left: 8px;
+}
+
+.price{
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.off{
+  font-size: 10px;
+  color: green;
+  margin-left: 5px;
+}
+
+.bag-logo{
+  margin-left: 90px;
+}
+
+.card-container{
+  display: flex;
+  /* width: 90%; */
+  margin-bottom: 200px;
+  flex-wrap: wrap;
+  justify-content: center;
 }

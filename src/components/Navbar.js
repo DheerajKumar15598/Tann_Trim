@@ -2,6 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
+    <>
     <div className='nav'>
       <div className="logo">
         <p>TANN TRIM</p>
@@ -9,23 +10,32 @@ const Navbar = () => {
 
       <div className="icons">
         <div className="icon">
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <i className="fa-solid fa-magnifying-glass"></i>
         </div>
 
         <div className="icon">
-            <i class="fa-solid fa-street-view"></i>
+            <i className="fa-solid fa-street-view"></i>
         </div>
         
         <div className="icon">
-            <i class="fa-regular fa-bookmark"></i>
+            <i className="fa-regular fa-bookmark"></i>
         </div>
 
         <div className="icon">
-            <i class="fa-solid fa-bag-shopping"></i>
+            <i className="fa-solid fa-bag-shopping"></i>
         </div>
 
       </div>
     </div>
+
+    <div className="menu">
+        <div>Bags</div>
+        <div>Travel</div>
+        <div>Accesories</div>
+        <div>Gifting</div>
+        <div>Jewelery</div>
+      </div>
+    </>
   )
 }
 
