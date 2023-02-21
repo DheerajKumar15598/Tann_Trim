@@ -117,7 +117,6 @@ code {
 }
 
 .card-img{
-  /* position: absolute; */
   background-color: aliceblue;
   height: 250px;
   width: 100%;
@@ -126,11 +125,16 @@ code {
   border-top-left-radius: 5%;
 }
 
-.card-textarea{
-  /* height: 50px; */
+.card-img img{
+  height: 250px;
   width: 100%;
-  /* border: 2px solid red; */
-  /* background-color: rgb(32, 32, 32); */
+  /* border: 1px solid white; */
+  border-top-right-radius: 5%;
+  border-top-left-radius: 5%;
+}
+
+.card-textarea{
+  width: 100%;
   color: white;
 }
 
@@ -139,7 +143,7 @@ code {
 }
 
 .price{
-  font-weight: bold;
+  /* font-weight: bold; */
   margin-left: 8px;
 }
 

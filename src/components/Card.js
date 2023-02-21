@@ -1,13 +1,15 @@
 import React from 'react'
 
 const Card = ({title, image, price}) => {
-  const shortTitle = title.toString()
+  const Title = title.substring(0, 25);
   return (
     <>
     <div className='card-box'>
-      <div className="card-img">{image}</div>
+      <div className="card-img">
+        <img src={image} alt="Product Image" />
+      </div>
       <div className="card-textarea">
-        <p className='title'>{title}</p>
+        <p className='title'>{Title.length > 15 ? `${Title}...` : Title}</p>
         <span className='price'>Rs. {price}</span>
         <span className='off'>(50% off)</span>
         <span className="bag-logo">
