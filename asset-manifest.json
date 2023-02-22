@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Tann_Trim/static/css/main.be3b13a5.css",
+    "main.js": "/Tann_Trim/static/js/main.d1efe9ae.js",
+    "index.html": "/Tann_Trim/index.html",
+    "main.be3b13a5.css.map": "/Tann_Trim/static/css/main.be3b13a5.css.map",
+    "main.d1efe9ae.js.map": "/Tann_Trim/static/js/main.d1efe9ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be3b13a5.css",
+    "static/js/main.d1efe9ae.js"
+  ]
+}
